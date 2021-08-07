@@ -1,3 +1,5 @@
+// Importing components
+import Form from './components/form.js'
 // Importing assets
 import './App.scss';
 import profile from './img/profile.jpg'
@@ -28,7 +30,7 @@ function App() {
               </div>
             </div>
           </div>
-          <a href="#" class="toggle-menu">
+          <a href="!#" class="toggle-menu">
             <i class="fa fa-bars"></i>
           </a>
           <div class="main-navigation responsive-menu">
@@ -96,32 +98,32 @@ function App() {
         <div class="social-icons">
           <ul>
             <li>
-              <a href="#">
-                <i class="fa fa-facebook"></i>
+              <a href="!#">
+                <i class="fab fa-facebook"></i>
               </a>
             </li>
             <li>
-              <a href="#">
-                <i class="fa fa-twitter"></i>
+              <a href="!#">
+                <i class="fab fa-twitter"></i>
               </a>
             </li>
             <li>
-              <a href="#">
-                <i class="fa fa-linkedin"></i>
+              <a href="!#">
+                <i class="fab fa-linkedin"></i>
               </a>
             </li>
             <li>
-              <a href="#">
-                <i class="fa fa-google-plus"></i>
+              <a href="!#">
+                <i class="fab fa-google-plus"></i>
               </a>
             </li>
             <li>
-              <a href="#">
-                <i class="fa fa-youtube"></i>
+              <a href="!#">
+                <i class="fab fa-youtube"></i>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="!#">
                 <i class="fa fa-rss"></i>
               </a>
             </li>
@@ -210,7 +212,7 @@ function App() {
                     <div class="project-hover">
                       <div class="inside">
                         <h5>
-                          <a href="#">Pellentesque porta ligula</a>
+                          <a href="!#">Pellentesque porta ligula</a>
                         </h5>
                         <p>
                           Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -226,7 +228,7 @@ function App() {
                     <div class="project-hover">
                       <div class="inside">
                         <h5>
-                          <a href="#">Pellentesque porta ligula</a>
+                          <a href="!#">Pellentesque porta ligula</a>
                         </h5>
                         <p>
                           Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -242,7 +244,7 @@ function App() {
                     <div class="project-hover">
                       <div class="inside">
                         <h5>
-                          <a href="#">Pellentesque porta ligula</a>
+                          <a href="!#">Pellentesque porta ligula</a>
                         </h5>
                         <p>
                           Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -258,7 +260,7 @@ function App() {
                     <div class="project-hover">
                       <div class="inside">
                         <h5>
-                          <a href="#">Pellentesque porta ligula</a>
+                          <a href="!#">Pellentesque porta ligula</a>
                         </h5>
                         <p>
                           Quisque mattis sit amet dolor eu scelerisque. Vivamus
@@ -274,7 +276,7 @@ function App() {
                     <div class="project-hover">
                       <div class="inside">
                         <h5>
-                          <a href="#">Pellentesque porta ligula</a>
+                          <a href="!#">Pellentesque porta ligula</a>
                         </h5>
                         <p>
                           Quisque mattis sit amet dolor eu scelerisque. Vivamus
@@ -290,7 +292,7 @@ function App() {
                     <div class="project-hover">
                       <div class="inside">
                         <h5>
-                          <a href="#">Pellentesque porta ligula</a>
+                          <a href="!#">Pellentesque porta ligula</a>
                         </h5>
                         <p>
                           Quisque mattis sit amet dolor eu scelerisque. Vivamus
@@ -306,62 +308,7 @@ function App() {
             <hr></hr>
 
             {/* <!-- CONTACT --> */}
-            <div class="page-section" id="contact">
-              <div class="row">
-                <div class="col-md-12">
-                  <h4 class="widget-title">PLACE TO TALK WITH ME</h4>
-                  <p>
-                    Vestibulum ac iaculis erat, in semper dolor. Maecenas et
-                    lorem molestie, maximus justo dignissim, cursus nisl. Nullam
-                    at ante quis ex pharetra pulvinar quis id dolor. Integer
-                    lorem odio, euismod ut sem sit amet, imperdiet condimentum
-                    diam.
-                  </p>
-                </div>
-              </div>
-              <div class="row">
-                <form action="#" method="post" class="contact-form">
-                  <fieldset class="col-md-4 col-sm-6">
-                    <input
-                      type="text"
-                      id="your-name"
-                      placeholder="Your Name..."
-                    />
-                  </fieldset>
-                  <fieldset class="col-md-4 col-sm-6">
-                    <input
-                      type="email"
-                      id="email"
-                      placeholder="Your Email..."
-                    />
-                  </fieldset>
-                  <fieldset class="col-md-4 col-sm-12">
-                    <input
-                      type="text"
-                      id="your-subject"
-                      placeholder="Subject..."
-                    />
-                  </fieldset>
-                  <fieldset class="col-md-12 col-sm-12">
-                    <textarea
-                      name="message"
-                      id="message"
-                      cols="30"
-                      rows="6"
-                      placeholder="Leave your message..."
-                    ></textarea>
-                  </fieldset>
-                  <fieldset class="col-md-12 col-sm-12">
-                    <input
-                      type="submit"
-                      class="button big default"
-                      value="Send Message"
-                    />
-                  </fieldset>
-                </form>
-              </div>
-              {/* <!-- .contact-form --> */}
-            </div>
+            <Form/>
             <hr></hr>
 
             <div class="row" id="footer">
